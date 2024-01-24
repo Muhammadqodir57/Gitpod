@@ -36,36 +36,10 @@ button {
   padding: 0 20px;
 }
 
-.header {
-  margin-bottom: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0 20px 32px;
-}
-.header-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0 48px;
-}
-.header-link {
-  color: rgba(18, 16, 12, 0.7);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-.header-btn {
-  padding: 6px 22px;
-  border-radius: 12px;
-  background: #12100C;
-  color: #F9F9F9;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
+.container {
+  width: 1310px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header {
@@ -98,4 +72,79 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 172px;
+}
+.hero-title {
+  width: 263px;
+  color: #12100C;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+}
+.hero-span {
+  margin-bottom: 38px;
+  width: 550px;
+  color: #12100C;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+}
+.hero-text {
+  width: 460px;
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px;
+}
+.hero-span-2 {
+  margin-bottom: 48px;
+  width: 402px;
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px;
+}
+.hero-box-2 {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 0 24px;
+}
+.hero-btn {
+  border-radius: 16px;
+  background: #FFAE33;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 12px 46px;
+  color: #12100C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.5px;
+}
+.hero-text-2 {
+  width: 138px;
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.hero-span-3 {
+  width: 187px;
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }/*# sourceMappingURL=main.css.map */
